@@ -4955,8 +4955,8 @@ all_data = [
         title_opts=opts.TitleOpts(title="Beijing AQI"),
         tooltip_opts=opts.TooltipOpts(trigger="axis"),
         datazoom_opts=[
-            opts.DataZoomOpts(yaxis_index=0),
-            opts.DataZoomOpts(type_="inside", yaxis_index=0),
+            opts.DataZoomOpts(xaxis_index=0),
+            opts.DataZoomOpts(type_="inside", xaxis_index=0),
         ],
         visualmap_opts=opts.VisualMapOpts(
             pos_top="10",
